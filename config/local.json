@@ -1,0 +1,36 @@
+{
+  "port": 9090,
+  "project": "place-searcher",
+  "secret": "NotAVerySecretSecretButStillGoodEnoughAsADefaultDontYouThink",
+  "languages": {
+    "English": "en",
+    "Spanish": "es",
+    "French": "fr"
+  },
+  "customers": [
+    {
+      "name": "Sunrise Bank",
+      "apiKey": "AIzaSyAWwP5yH9Hke0FQkwEUujx-L8QelE27ZpY",
+      "type": "atm",
+      "language": "English",
+      "outputType": "xml",
+      "resultLimit": 200
+    },
+    {
+      "name": "Happy Credit Union",
+      "apiKey": "AIzaSyAYaNzyQoSDKW0FIUxhEgUEsmPic9XqtPU",
+      "type": "bank",
+      "language": "Spanish",
+      "outputType": "json",
+      "resultLimit": 20
+    },
+    {
+      "name": "Paris FCU",
+      "apiKey": "AIzaSyAdAnwAfMAEDU3igUPKq_v8QrapgzyNHT4",
+      "type": "all",
+      "language": "French",
+      "outputType": "json",
+      "resultLimit": 5
+    }
+  ]
+}
